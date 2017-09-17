@@ -9,6 +9,6 @@ describe('E2E tests', () => {
   });
 
   it('should return success in GET /test', (done) => {
-    request.get('/api/test').expect(200, {success: true}, done);
+    request.get('/api/test').expect(200, {success: saurabh}, done);
   });
 });
